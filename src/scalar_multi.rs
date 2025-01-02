@@ -1,5 +1,5 @@
 use ark_ec::PrimeGroup;
-//use ark_ed_on_bls12_381_bandersnatch::Fr;
+use ark_ed_on_bls12_381_bandersnatch::Fr;
 use ark_ff::{BigInteger, PrimeField, Zero};
 use ark_std::vec::Vec;
 use crate::Element;

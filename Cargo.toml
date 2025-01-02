@@ -28,12 +28,5 @@ hex = "0.4.3"
 [features]
 default = ["parallel"]
 parallel = ["ark-ff/parallel", "ark-ff/asm", "ark-ec/parallel"]
-[[example]]
-name = "msm"
-path = "example/msm.rs"
 
-[[bench]]
-name = "benchmark"
-path = "benches/benchmark.rs"
-harness = false
 
